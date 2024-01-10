@@ -46,7 +46,7 @@ function process(){
     const sendKlemme = document.getElementById("CHECK_KLEMME").checked;
     const sendSpeed = document.getElementById("CHECK_SPEED").checked;
     const sendRPM = document.getElementById("CHECK_RPM").checked;
-//TODO hier weiter machen mit den definitionen danach als JSON datei ausgeben, mit einem ESP32 dann versuchen dateien hin und her zu schicken
+//TODO hier weiter machen mit den definitionen danach als JSON datei ausgeben, mit einem ESP32 dann versuchen dateien hin und her zu schicken.
     const stateKlemme = document.getElementById("BTN_KLEMME").innerHTML === "ON";
     const speed = document.querySelector('#VALUE_SPEED').innerHTML;
     console.log(speed);
