@@ -49,8 +49,8 @@ function process(){
 //TODO hier weiter machen mit den definitionen danach als JSON datei ausgeben, mit einem ESP32 dann versuchen dateien hin und her zu schicken.
     const stateKlemme = document.getElementById("BTN_KLEMME").innerHTML === "ON";
     const speed = document.querySelector('#VALUE_SPEED').innerHTML;
-    console.log(speed);
-    const state = {}
+    const rpm = document.querySelector('#VALUE_RPM').innerHTML;
+    const state = {sendklemme, sendSpeed};
 }
 
 function onBtnClickKlemme(){
